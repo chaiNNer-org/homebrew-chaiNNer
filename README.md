@@ -3,5 +3,5 @@
 Install chaiNNer with:
 
 ```bash
-brew install --cask --no-quarantine chaiNNer-org/chaiNNer/chaiNNer
+brew install --cask --no-quarantine chaiNNer-org/chaiNNer/chainner
 ```
