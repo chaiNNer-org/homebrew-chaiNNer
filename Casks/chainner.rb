@@ -1,7 +1,7 @@
 cask "chainner" do
-  version "0.19.1"
+  version "0.19.2"
   # TODO: remove sh256 and url when an arm64 build is available
-  sha256 "19c36f24bb3e3f8a6d8efa7bba3fe087507563ba61a4a0fae073ff1509329ca0"
+  sha256 "6445be7f64973195045fc27d4cd894b5a8a162bf7428019e76ec1f9c93b8e6f3"
 
   url "https://github.com/chaiNNer-org/chaiNNer/releases/download/v#{version}/chaiNNer-#{version}-x64-macos.dmg",
       verified: "github.com/chaiNNer-org/chaiNNer/"
@@ -13,7 +13,7 @@ cask "chainner" do
   #         verified: "github.com/chaiNNer-org/chaiNNer/"
   #   end
   #   on_intel do
-  #     sha256 "19c36f24bb3e3f8a6d8efa7bba3fe087507563ba61a4a0fae073ff1509329ca0"
+  #     sha256 "6445be7f64973195045fc27d4cd894b5a8a162bf7428019e76ec1f9c93b8e6f3"
   #
   #     url "https://github.com/chaiNNer-org/chaiNNer/releases/download/v#{version}/chaiNNer-#{version}-x64-macos.dmg",
   #         verified: "github.com/chaiNNer-org/chaiNNer/"
